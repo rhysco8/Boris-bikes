@@ -4,5 +4,4 @@ This will emulate all the docking stations, bikes, and infrastructure (repair st
 
 ## How to use
 
-```ruby boris_bike.rb
-```
+```ruby boris_bike.rb```
