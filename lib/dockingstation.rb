@@ -1,3 +1,4 @@
 class DockingStation
-
-end 
+  def release_bike
+  end
+end
