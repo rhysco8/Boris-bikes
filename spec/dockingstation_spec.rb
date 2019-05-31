@@ -5,11 +5,16 @@ describe 'DockingStation' do
   describe '#release_bike' do
     it 'releases bike' do
       docking_station = DockingStation.new
+      bike = Bike.new
+      docking_station.dock(bike)
       expect(docking_station.release_bike).to be_instance_of(Bike)
     end
   end
   it 'tests if bike works' do
-    bike = DockingStation.new.release_bike
+    docking_station= DockingStation.new
+    bike=Bike.new
+    docking_station.dock(bike)
+    a_bike = docking_station.release_bike
     expect(bike.working?).to be true
   end
   describe '#dock(bike)' do
@@ -29,5 +34,9 @@ describe 'DockingStation' do
     docked_bike = Bike.new
     docking_station.dock(docked_bike)
     expect(docking_station.bike).to eq(docked_bike)
+  end
+  it "raises an error when there's no bikes avaliable" do
+    docking_station = DockingStation.new
+    expect{docking_station.release_bike}.to raise_error("No bike!")
   end
 end
