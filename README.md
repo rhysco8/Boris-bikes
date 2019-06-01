@@ -1,6 +1,6 @@
 # Boris-bikes
 
-This is a Makers Academy week 1 challenge
+This is a Makers Academy week 1 challenge undertaken by Rhys, Monika and Celia.
 
 This will emulate all the docking stations, bikes, and infrastructure (repair staff, and so on) for a network of bikes and uses across London
 
