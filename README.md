@@ -1,7 +1,7 @@
 # Boris-bikes
 
+This is a Makers Academy week 1 challenge
+
 This will emulate all the docking stations, bikes, and infrastructure (repair staff, and so on) for a network of bikes and uses across London
 
-## How to use
-
-```ruby boris_bike.rb```
+Currently you can release a bike from a docking station if there is a bike in it.
